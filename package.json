@@ -5,8 +5,8 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1" , 
-     "build": "echo \"No build step necessary\""
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build step necessary\""
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.13.2",
     "nodemon": "^3.1.10",
-    "pm2": "^6.0.5"
+    "pm2": "^6.0.5",
+    "serverless-http": "^3.2.0"
   }
 }
