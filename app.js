@@ -9,7 +9,7 @@ require('dotenv').config();
 // Middleware and Routes
 app.use(cors({
   origin: '*', // allow all origins
-  credentials: true, // BUT careful: credentials:true + origin:* don't work together
+ 
 }));
 app.use(express.json());
 app.use('/auth', require('./routes/auth'));
