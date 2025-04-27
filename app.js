@@ -7,7 +7,6 @@ const app = express();
 require('dotenv').config();
 
 // Middleware and Routes
-app.use(cors()); 
 app.use(cors({
   origin: '*', // allow all origins
   credentials: true, // BUT careful: credentials:true + origin:* don't work together
